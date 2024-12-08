@@ -1,0 +1,71 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Avenir", sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #777;
+}
+
+.btn {
+  margin: 5px;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
